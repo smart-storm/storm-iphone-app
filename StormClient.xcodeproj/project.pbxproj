@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		163F19002018FB03008FE884 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 163F18FF2018FB03008FE884 /* AppDelegate.m */; };
+		163F19032018FB03008FE884 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 163F19022018FB03008FE884 /* ViewController.m */; };
+		163F19062018FB03008FE884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163F19042018FB03008FE884 /* Main.storyboard */; };
+		163F19082018FB03008FE884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163F19072018FB03008FE884 /* Assets.xcassets */; };
+		163F190B2018FB03008FE884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163F19092018FB03008FE884 /* LaunchScreen.storyboard */; };
+		163F190E2018FB03008FE884 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 163F190D2018FB03008FE884 /* main.m */; };
+		163F19182018FB03008FE884 /* StormClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 163F19172018FB03008FE884 /* StormClientTests.m */; };
+		163F19232018FB03008FE884 /* StormClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 163F19222018FB03008FE884 /* StormClientUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		163F19142018FB03008FE884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 163F18F32018FB03008FE884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 163F18FA2018FB03008FE884;
+			remoteInfo = StormClient;
+		};
+		163F191F2018FB03008FE884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 163F18F32018FB03008FE884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 163F18FA2018FB03008FE884;
+			remoteInfo = StormClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		163F18FB2018FB03008FE884 /* StormClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StormClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		163F18FE2018FB03008FE884 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		163F18FF2018FB03008FE884 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		163F19012018FB03008FE884 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		163F19022018FB03008FE884 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		163F19052018FB03008FE884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		163F19072018FB03008FE884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		163F190A2018FB03008FE884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		163F190C2018FB03008FE884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		163F190D2018FB03008FE884 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		163F19132018FB03008FE884 /* StormClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StormClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		163F19172018FB03008FE884 /* StormClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StormClientTests.m; sourceTree = "<group>"; };
+		163F19192018FB03008FE884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		163F191E2018FB03008FE884 /* StormClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StormClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		163F19222018FB03008FE884 /* StormClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StormClientUITests.m; sourceTree = "<group>"; };
+		163F19242018FB03008FE884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		163F18F82018FB03008FE884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163F19102018FB03008FE884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163F191B2018FB03008FE884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		163F18F22018FB03008FE884 = {
+			isa = PBXGroup;
+			children = (
+				163F18FD2018FB03008FE884 /* StormClient */,
+				163F19162018FB03008FE884 /* StormClientTests */,
+				163F19212018FB03008FE884 /* StormClientUITests */,
+				163F18FC2018FB03008FE884 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		163F18FC2018FB03008FE884 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				163F18FB2018FB03008FE884 /* StormClient.app */,
+				163F19132018FB03008FE884 /* StormClientTests.xctest */,
+				163F191E2018FB03008FE884 /* StormClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		163F18FD2018FB03008FE884 /* StormClient */ = {
+			isa = PBXGroup;
+			children = (
+				163F18FE2018FB03008FE884 /* AppDelegate.h */,
+				163F18FF2018FB03008FE884 /* AppDelegate.m */,
+				163F19012018FB03008FE884 /* ViewController.h */,
+				163F19022018FB03008FE884 /* ViewController.m */,
+				163F19042018FB03008FE884 /* Main.storyboard */,
+				163F19072018FB03008FE884 /* Assets.xcassets */,
+				163F19092018FB03008FE884 /* LaunchScreen.storyboard */,
+				163F190C2018FB03008FE884 /* Info.plist */,
+				163F190D2018FB03008FE884 /* main.m */,
+			);
+			path = StormClient;
+			sourceTree = "<group>";
+		};
+		163F19162018FB03008FE884 /* StormClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				163F19172018FB03008FE884 /* StormClientTests.m */,
+				163F19192018FB03008FE884 /* Info.plist */,
+			);
+			path = StormClientTests;
+			sourceTree = "<group>";
+		};
+		163F19212018FB03008FE884 /* StormClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				163F19222018FB03008FE884 /* StormClientUITests.m */,
+				163F19242018FB03008FE884 /* Info.plist */,
+			);
+			path = StormClientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		163F18FA2018FB03008FE884 /* StormClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 163F19272018FB03008FE884 /* Build configuration list for PBXNativeTarget "StormClient" */;
+			buildPhases = (
+				163F18F72018FB03008FE884 /* Sources */,
+				163F18F82018FB03008FE884 /* Frameworks */,
+				163F18F92018FB03008FE884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StormClient;
+			productName = StormClient;
+			productReference = 163F18FB2018FB03008FE884 /* StormClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		163F19122018FB03008FE884 /* StormClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 163F192A2018FB03008FE884 /* Build configuration list for PBXNativeTarget "StormClientTests" */;
+			buildPhases = (
+				163F190F2018FB03008FE884 /* Sources */,
+				163F19102018FB03008FE884 /* Frameworks */,
+				163F19112018FB03008FE884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				163F19152018FB03008FE884 /* PBXTargetDependency */,
+			);
+			name = StormClientTests;
+			productName = StormClientTests;
+			productReference = 163F19132018FB03008FE884 /* StormClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		163F191D2018FB03008FE884 /* StormClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 163F192D2018FB03008FE884 /* Build configuration list for PBXNativeTarget "StormClientUITests" */;
+			buildPhases = (
+				163F191A2018FB03008FE884 /* Sources */,
+				163F191B2018FB03008FE884 /* Frameworks */,
+				163F191C2018FB03008FE884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				163F19202018FB03008FE884 /* PBXTargetDependency */,
+			);
+			name = StormClientUITests;
+			productName = StormClientUITests;
+			productReference = 163F191E2018FB03008FE884 /* StormClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		163F18F32018FB03008FE884 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Bartłomiej Uchański";
+				TargetAttributes = {
+					163F18FA2018FB03008FE884 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					163F19122018FB03008FE884 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 163F18FA2018FB03008FE884;
+					};
+					163F191D2018FB03008FE884 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 163F18FA2018FB03008FE884;
+					};
+				};
+			};
+			buildConfigurationList = 163F18F62018FB03008FE884 /* Build configuration list for PBXProject "StormClient" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 163F18F22018FB03008FE884;
+			productRefGroup = 163F18FC2018FB03008FE884 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				163F18FA2018FB03008FE884 /* StormClient */,
+				163F19122018FB03008FE884 /* StormClientTests */,
+				163F191D2018FB03008FE884 /* StormClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		163F18F92018FB03008FE884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163F190B2018FB03008FE884 /* LaunchScreen.storyboard in Resources */,
+				163F19082018FB03008FE884 /* Assets.xcassets in Resources */,
+				163F19062018FB03008FE884 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163F19112018FB03008FE884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163F191C2018FB03008FE884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		163F18F72018FB03008FE884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163F19032018FB03008FE884 /* ViewController.m in Sources */,
+				163F190E2018FB03008FE884 /* main.m in Sources */,
+				163F19002018FB03008FE884 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163F190F2018FB03008FE884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163F19182018FB03008FE884 /* StormClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163F191A2018FB03008FE884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163F19232018FB03008FE884 /* StormClientUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		163F19152018FB03008FE884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 163F18FA2018FB03008FE884 /* StormClient */;
+			targetProxy = 163F19142018FB03008FE884 /* PBXContainerItemProxy */;
+		};
+		163F19202018FB03008FE884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 163F18FA2018FB03008FE884 /* StormClient */;
+			targetProxy = 163F191F2018FB03008FE884 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		163F19042018FB03008FE884 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				163F19052018FB03008FE884 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		163F19092018FB03008FE884 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				163F190A2018FB03008FE884 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		163F19252018FB03008FE884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		163F19262018FB03008FE884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		163F19282018FB03008FE884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4ZKBX7JP5;
+				INFOPLIST_FILE = StormClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baaarteeek.StormClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		163F19292018FB03008FE884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4ZKBX7JP5;
+				INFOPLIST_FILE = StormClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baaarteeek.StormClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		163F192B2018FB03008FE884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4ZKBX7JP5;
+				INFOPLIST_FILE = StormClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baaarteeek.StormClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StormClient.app/StormClient";
+			};
+			name = Debug;
+		};
+		163F192C2018FB03008FE884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4ZKBX7JP5;
+				INFOPLIST_FILE = StormClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baaarteeek.StormClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StormClient.app/StormClient";
+			};
+			name = Release;
+		};
+		163F192E2018FB03008FE884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4ZKBX7JP5;
+				INFOPLIST_FILE = StormClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baaarteeek.StormClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StormClient;
+			};
+			name = Debug;
+		};
+		163F192F2018FB03008FE884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4ZKBX7JP5;
+				INFOPLIST_FILE = StormClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baaarteeek.StormClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StormClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		163F18F62018FB03008FE884 /* Build configuration list for PBXProject "StormClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163F19252018FB03008FE884 /* Debug */,
+				163F19262018FB03008FE884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		163F19272018FB03008FE884 /* Build configuration list for PBXNativeTarget "StormClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163F19282018FB03008FE884 /* Debug */,
+				163F19292018FB03008FE884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		163F192A2018FB03008FE884 /* Build configuration list for PBXNativeTarget "StormClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163F192B2018FB03008FE884 /* Debug */,
+				163F192C2018FB03008FE884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		163F192D2018FB03008FE884 /* Build configuration list for PBXNativeTarget "StormClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163F192E2018FB03008FE884 /* Debug */,
+				163F192F2018FB03008FE884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 163F18F32018FB03008FE884 /* Project object */;
+}
