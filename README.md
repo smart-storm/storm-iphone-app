@@ -83,9 +83,9 @@ Tap the camera button in the top left corner to save the current span of the cha
 
 ## Meta
 
-Bartek Uchański – [@baaarteeek](https://twitter.com/baaarteeek) – baaarteeek@gmail.com
-
-Distributed under the MIT License. See ``LICENSE`` for more information.
+- Bartek Uchański 
+- Jakub Kardaś 
+- Distributed under the MIT License. See ``LICENSE`` for more information.
 
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: LICENSE
