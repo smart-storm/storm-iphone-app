@@ -7,7 +7,25 @@
 		<key>StormClient.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>7</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>163F18FA2018FB03008FE884</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>163F19122018FB03008FE884</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>163F191D2018FB03008FE884</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
