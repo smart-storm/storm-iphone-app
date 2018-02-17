@@ -23,6 +23,7 @@ Storm-iphone-app is an iOS app for retrieving sensor data from Smart Storm onlin
 
 - iOS 11.0+
 - Xcode 9.2
+- Charts library
 
 ## Installation
 
