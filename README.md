@@ -1,6 +1,6 @@
 # storm-iphone-app
 
-> Storm-iphone-app is a simple SmartStorm client for iOS based devices.
+Storm-iphone-app is a simple SmartStorm client for iOS based devices.
 
 [![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
 [![License][license-image]][license-url]
